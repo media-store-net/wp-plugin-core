@@ -1,0 +1,22 @@
+{
+    "name": "media-store-net/wp-plugin-core",
+    "description": "Core functionality and libraries for Wordpress Plugin (a light weight plugin template with composer and MVC).",
+    "license": "MIT",
+    "keywords": ["wordpress plugin","plugin","wordpress"],
+    "authors": [
+        {
+            "name": "Artur Voll",
+            "email": "kontakt@media-store.net"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "media-store-net/wp-mvc-core": "v1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MediaStoreNet\\WPPluginCore\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
