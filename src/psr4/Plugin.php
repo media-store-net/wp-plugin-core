@@ -133,7 +133,7 @@ abstract class Plugin implements Plugable
 			$is_return = preg_match( '/^\_c\_return\_/', $method );
 			$method = preg_replace( '/^\_c\_(return|void)\_/', '', $method );
 			if ( $is_return ) {
-				return $this->mvc->action_args(
+				return $this->mvc->action(
 					$method,
 					$this->override_args( $method, $args )
 				);
