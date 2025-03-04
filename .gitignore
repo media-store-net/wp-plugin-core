@@ -94,3 +94,9 @@ fabric.properties
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
 
+/.idea/.gitignore
+/.idea/modules.xml
+/.idea/php.xml
+/.idea/phpspec.xml
+/.idea/vcs.xml
+/.idea/wp-lightweight-mvc.iml
