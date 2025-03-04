@@ -138,7 +138,7 @@ abstract class Plugin implements Plugable
 					$this->override_args( $method, $args )
 				);
 			} else {
-				$this->mvc->call_args(
+				$this->mvc->call(
 					$method,
 					$this->override_args( $method, $args )
 				);
