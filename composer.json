@@ -11,11 +11,16 @@
     ],
     "require": {
         "php": ">=7.4",
-        "media-store-net/wp-mvc-core": "v1.0.0"
+        "media-store-net/wp-mvc-core": "v1.0.0",
+        "amostajo/phpfastcache": "^3.0",
+        "katzgrau/klogger": "dev-master"
     },
     "autoload": {
+        "files": [
+            "src/lib/functions.php"
+        ],
         "psr-4": {
-            "MediaStoreNet\\WPPluginCore\\": "src"
+            "MediaStoreNet\\WPPluginCore\\": "src/psr4"
         }
     },
     "minimum-stability": "dev"
