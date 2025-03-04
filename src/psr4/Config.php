@@ -3,22 +3,20 @@
 namespace MediaStoreNet\WPPluginCore;
 
 /**
- * Configuration handler class.
- *
- * This class is designed to manage and retrieve configuration values
- * from a multi-dimensional configuration array with support for
- * nested keys using dot notation.
+ * Handles configuration data and provides methods to retrieve values.
  */
 class Config
 {
 	/**
 	 * Raw config array.
 	 * @var array
+	 * @since 1.0
 	 */
 	protected $raw;
 
 	/**
 	 * Constructor.
+	 * @since 1.0
 	 *
 	 * @param array $raw Raw config array.
 	 */
@@ -31,6 +29,7 @@ class Config
 	 * Returns value stored in given key.
 	 * Can acces multidimenssional array values with a DOT(.)
 	 * i.e. paypal.client_id
+	 * @since 1.0
 	 *
 	 * @param string $key Key.
 	 * @param string $sub Child array
