@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=7.4",
-        "media-store-net/wp-mvc-core": "^v1.0.2",
+        "media-store-net/wp-mvc-core": "^v1.0.3",
         "amostajo/phpfastcache": "^3.0",
         "katzgrau/klogger": "dev-master"
     },
